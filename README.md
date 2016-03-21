@@ -19,7 +19,7 @@ Please feel free to update this list or submit a fix for a particular browser vi
 
 ##Installing
 
-watermark.js is available via npm and bower:
+Install watermarkjs via meteor
 
 ```
 $ meteor add contribute:image-watermark
