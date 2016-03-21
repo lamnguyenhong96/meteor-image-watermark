@@ -4,7 +4,7 @@ Meteor watermark.js
 
 A functional library for watermarking images in the browser. Written with ES6, and made available to current browsers via [Babel](https://babeljs.io/). Supports urls, file inputs, blobs, and on-page images.
 
-##Tested Browsers
+## Tested Browsers
 
 Any browser supporting [File](https://developer.mozilla.org/en-US/docs/Web/API/File#Browser_compatibility) and [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility) should work. The following browsers have been
 tested and work:
@@ -17,15 +17,15 @@ tested and work:
 
 Please feel free to update this list or submit a fix for a particular browser via a pull request.
 
-##Installing
+## Installing
 
 Install watermarkjs via meteor
 
 ```
 $ meteor add contribute:image-watermark
 ```
-##Usage
-
+## Usage
+ 
 ```js
 // watermark by local path
 WatermarkConfig.watermark(['img/photo.jpg', 'img/logo.png'])
@@ -48,10 +48,10 @@ WatermarkConfig.watermark(['http://host.com/photo.jpg', 'http://host.com/logo.pn
   .image(WatermarkConfig.watermark.image.lowerRight(0.5))
   .then(img => document.getElementById('container').appendChild(img));
 ```
-##Examples
+## Examples
 The examples demonstrate using watermark images and text, as well as a demonstration
 of uploading a watermarked image to Amazon S3. It is the same content hosted at
 [http://brianium.github.io/watermarkjs/](http://brianium.github.io/watermarkjs/).
 
-##Author
+## Author
 Author: https://github.com/brianium
