@@ -14,9 +14,9 @@ Package.describe({
 Package.onUse(function (api) {
     api.versionsFrom('METEOR@1.0');
     api.use('jquery', 'client');
-    api.use('ecmascript');
+    api.use(['ecmascript@0.1.6',
+             'ecmascript-runtime@0.2.6'], 'client');
     api.addFiles('lib/watermark.js');
-    
-     api.export('WatermarkConfig','client');
-});
 
+    api.export('WatermarkConfig', 'client');
+});
