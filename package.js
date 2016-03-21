@@ -1,10 +1,10 @@
 Package.describe({
-    name: 'contribute:image-watermark',
+    name: 'newbiepub:image-watermark',
     version: '0.0.1',
     // Brief, one-line summary of the package.
     summary: 'Add Watermark for image using watermarkjs',
     // URL to the Git repository containing the source code for this package.
-    git: 'https://github.com/lamnguyenhong96/meteor-image-watermark/',
+    git: 'https://github.com/newbiepub/meteor-image-watermark/',
     // By default, Meteor will default to using README.md for documentation.
     // To avoid submitting documentation, set this field to null.
     documentation: 'README.md'
