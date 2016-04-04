@@ -22,7 +22,7 @@ Please feel free to update this list or submit a fix for a particular browser vi
 Install watermarkjs via meteor
 
 ```
-$ meteor add contribute:image-watermark
+$ meteor add newbiepub:image-watermark
 ```
 ## Usage
  
